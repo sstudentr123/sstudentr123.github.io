@@ -1,0 +1,30 @@
+﻿<!doctype html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css?3">
+</head>
+
+<body>
+    <div id="app">
+        <div class="site-main">
+            <div class="nav">
+                <router-link to="/">程式作品</router-link>
+                <router-link to="/capital">個人資料</router-link>
+                <a href="https://www.flickr.com/photos/116599343@N04/sets" target='_blank'>觀看其他</a>
+            </div>
+            <router-view></router-view>
+
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.min.js'></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src='./js/custom.js?2'></script>
+</body>
+
+</html>
