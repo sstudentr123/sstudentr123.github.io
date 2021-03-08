@@ -136,7 +136,7 @@ const home = {
                     tool: "HTML、CSS、Javascript",
                     content: "設計、切版、RWD",
                     imgUrl: "https://i.imgur.com/NgSO1XY.jpg",
-                    linkUrl: "../vegas03/login.html",
+                    linkUrl: "../vegas03",
                     codeUrl: "",
                 },
                 {
